@@ -1,0 +1,37 @@
+<template>
+    <section>
+        <h2>Språk</h2>
+        <ul class="list list--inline">
+            <li class="list__item has-icon">
+                <svg class="icon__symbol icon__symbol--contrast">
+                    <use xlink:href="img/sprite.svg#check"></use>
+                </svg>
+                <p class="list__text">
+                    Svenska
+                </p>
+            </li>
+            <li class="list__item has-icon">
+                <svg class="icon__symbol icon__symbol--contrast">
+                    <use xlink:href="img/sprite.svg#check"></use>
+                </svg>
+                <p class="list__text">
+                    Engelska
+                </p>
+            </li>
+            <li class="list__item has-icon">
+                <svg class="icon__symbol icon__symbol--contrast icon__symbol--opaque">
+                    <use xlink:href="img/sprite.svg#check"></use>
+                </svg>
+                <p class="list__text">
+                    Tyska
+                </p>
+            </li>
+        </ul>
+    </section>
+</template>
+
+<script>
+    export default {
+        name: "Languages"
+    }
+</script>
