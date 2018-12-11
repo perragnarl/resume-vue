@@ -1,7 +1,7 @@
 <template>
     <section>
         <h2>Mjukvara</h2>
-        <List inline>
+        <List inline limit>
             <ListItem text="HTML" iconName="html" boxedIcon />
             <ListItem text="CSS" iconName="css" boxedIcon />
             <ListItem text="JavaScript" iconName="js" boxedIcon />
@@ -26,21 +26,21 @@
             <ListItem text="IBM Websphere Portal" iconName="check" />
             <ListItem text="Photoshop" iconName="check" />
         </List>
-        <button class="button button--center button--ghost">Visa allt</button>
+        <AppButton @click="expand" type="ghost" align="center">Visa allt</AppButton>
         <small>* Underhåll snarare än utveckling.</small>
     </section>
 </template>
 
 <script>
-    import List from './../parts/list/List.vue'
-    import ListItem from './../parts/list/ListItem.vue'
-    export default {
-        name: "Software",
-        components: {
-            List,
-            ListItem
-        }
-    }
+import List from "./../parts/list/List.vue";
+import ListItem from "./../parts/list/ListItem.vue";
+export default {
+  name: "Software",
+  components: {
+    List,
+    ListItem
+  }
+};
 </script>
 
 <style scoped lang="scss">

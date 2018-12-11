@@ -5,6 +5,9 @@ import App from "./App.vue";
 import Icon from "./components/parts/global/Icon.vue";
 Vue.component("Icon", Icon);
 
+import AppButton from "./components/parts/global/AppButton.vue";
+Vue.component("AppButton", AppButton);
+
 Vue.config.productionTip = false;
 
 new Vue({

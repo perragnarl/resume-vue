@@ -11,9 +11,9 @@
 </template>
 
 <script>
-    export default {
-        name: "AboutMe"
-    }
+export default {
+  name: "AboutMe"
+};
 </script>
 
 <style scoped lang="scss">

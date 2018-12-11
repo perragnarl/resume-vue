@@ -30,14 +30,14 @@
 </template>
 
 <script>
-    import Timeline from './../parts/timeline/Timeline.vue'
-    import TimelineItem from './../parts/timeline/TimelineItem.vue'
+import Timeline from "./../parts/timeline/Timeline.vue";
+import TimelineItem from "./../parts/timeline/TimelineItem.vue";
 
-    export default {
-        name: "Experiences",
-        components: {
-            Timeline,
-            TimelineItem
-        }
-    }
+export default {
+  name: "Experiences",
+  components: {
+    Timeline,
+    TimelineItem
+  }
+};
 </script>

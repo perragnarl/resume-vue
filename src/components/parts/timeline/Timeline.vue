@@ -5,22 +5,22 @@
 </template>
 
 <script>
-    export default {
-        name: "Timeline"
-    }
+export default {
+  name: "Timeline"
+};
 </script>
 
 <style scoped lang="scss">
-    @import '../../../assets/settings.scss';
+@import "../../../assets/settings.scss";
 
-    .timeline {
-        padding: $l 0 $m $l;
-        border-left: 4px solid $contrast;
-    }
-    @media screen and (min-width: 750px) {
-        .timeline {
-            margin: 0 0 0 ($xxl * 2);
-            padding: $l 0 $m $xl;
-        }
-    }
+.timeline {
+  padding: $l 0 $m $l;
+  border-left: 4px solid $contrast;
+}
+@media screen and (min-width: 750px) {
+  .timeline {
+    margin: 0 0 0 ($xxl * 2);
+    padding: $l 0 $m $xl;
+  }
+}
 </style>
